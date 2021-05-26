@@ -25,7 +25,7 @@ public class testing extends JFrame {
 					testing frame = new testing();
 					frame.setVisible(true);
 				} catch (Exception e) {
-					e.printStackTrace();
+					joptionPane.show(e);
 				}
 			}
 		});
